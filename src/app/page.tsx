@@ -75,7 +75,7 @@ export default function Home() {
         <DraggableWrapper
           ref={draggableRef}
           constraintsRef={constraintsRef as React.RefObject<HTMLElement>}
-          initialX={816}
+          initialX={0}
           initialY={540}
         >
 
