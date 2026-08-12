@@ -75,8 +75,8 @@ export default function Home() {
         <DraggableWrapper
           ref={draggableRef}
           constraintsRef={constraintsRef as React.RefObject<HTMLElement>}
-          initialX={0}
-          initialY={0}
+          initialX={550}
+          initialY={300}
         >
 
           <div id="mat-texture" className="absolute overflow-hidden rounded-lg border-[4px] border-[#47bfa0] bg-[#0a966e] w-[4800px] h-[2760px] left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%] shadow-lg bg-linear-grid bg-[size:16px_16px] bg-[position:12px_12px]">
