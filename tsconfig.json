@@ -36,7 +36,8 @@
     "*.d.ts",
     "src/app/noteA1/page.mdx",
     "src/app/notes/noteB/page.mdx",
-    "src/app/notes/(notes)/noteA/page.mdx"
+    "src/app/notes/(notes)/noteA/page.mdx",
+    ".next/dev/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

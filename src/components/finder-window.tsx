@@ -43,7 +43,7 @@ const folderContent: FolderContentItem[] = [
     description: "Designed and built an AI Operations Platform that lets users deploy specialized AI agents across isolated workspaces, track usage and cost-savings analytics, and manage subscriptions via integrated billing — all backed by a secure, production-deployed Node.js and PostgreSQL stack.",
     cta: [
       { label: "Visit Website", url: "https://cognify-one-ivory.vercel.app/" },
-      { label: "View Source", url: "https://github.com/shankar7055/COGNIFY" },
+      { label: "View Source", url: "https://github.com/shankywho/COGNIFY" },
     ],
   },
   {
@@ -51,7 +51,7 @@ const folderContent: FolderContentItem[] = [
     description: "A B2B supply chain platform built around real operational problems — concurrency-safe inventory reservations (atomic MongoDB stock guards), transaction-wrapped order rollbacks, and an auto-assignment algorithm that routes orders to distributors based on service area and current load. Role-aware multi-persona frontend (admin/warehouse/client/logistics) with JWT auth.",
     cta: [
       { label: "Visit Website", url: "https://stronix-navy.vercel.app" },
-      { label: "View Source", url: "https://github.com/shankar7055/STRONIX" },
+      { label: "View Source", url: "https://github.com/shankywho/STRONIX" },
     ],
   },
   {
@@ -59,7 +59,7 @@ const folderContent: FolderContentItem[] = [
     description: "Developed an agentic productivity assistant that helps users stay ahead of deadlines through AI-powered task prioritization, schedule planning, and proactive reminders. Built a responsive React application with a focus on modern UI, smooth user experience, and scalable frontend architecture.",
     cta: [
       { label: "Visit Website", url: "https://flare-zsbt.vercel.app/" },
-      { label: "View Source", url: "https://github.com/shankar7055/Flare" },
+      { label: "View Source", url: "https://github.com/shankywho/Flare" },
     ],
   },
   {
@@ -67,7 +67,7 @@ const folderContent: FolderContentItem[] = [
     description: "An AI co-pilot for Customer Success teams that ingests client interaction data into a per-account knowledge graph (via Cognee) instead of flat text — surfacing connections between events like a delayed feature, a ticket spike, and a competitor mention that would otherwise stay buried.\n\nA backend worker generates real-time churn risk scores with root-cause explanations (LLM in JSON mode, Groq), with a comparison view contrasting naive vector search against graph-based reasoning. Built the backend, AI/graph pipeline, and system design.",
     cta: [
       { label: "Visit Website", url: "https://retain-graph.vercel.app" },
-      { label: "View Source", url: "https://github.com/shankar7055/RetainGraph" },
+      { label: "View Source", url: "https://github.com/shankywho/RetainGraph" },
     ],
   },
   {

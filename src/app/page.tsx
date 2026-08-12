@@ -129,7 +129,7 @@ export default function Home() {
                       </Link>
                     </Button>
                     <Button asChild variant="secondary" size="sm" className="gap-2">
-                      <Link href="https://github.com/shankar7055" target="_blank" rel="noopener noreferrer">
+                      <Link href="https://github.com/shankywho" target="_blank" rel="noopener noreferrer">
                         <Github className="w-5 h-5" />
                         <span className="hidden sm:inline">GitHub</span>
                       </Link>

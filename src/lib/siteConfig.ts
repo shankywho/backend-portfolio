@@ -8,7 +8,7 @@ export const siteConfig = {
     resume: "#",
     linkedin: "https://www.linkedin.com/in/shankar70/",
     email: "work.shankar70@gmail.com",
-    github: "https://github.com/shankar7055",
+    github: "https://github.com/shankywho",
   },
   bio: [
     {
@@ -33,7 +33,7 @@ export const siteConfig = {
       highlights: [],
       cta: [
         { label: "Visit Website", url: "https://stronix-navy.vercel.app" },
-        { label: "View Source", url: "https://github.com/shankar7055/STRONIX" },
+        { label: "View Source", url: "https://github.com/shankywho/STRONIX" },
       ],
     },
     {
@@ -44,7 +44,7 @@ export const siteConfig = {
       highlights: [],
       cta: [
         { label: "Visit Website", url: "https://flare-zsbt.vercel.app/" },
-        { label: "View Source", url: "https://github.com/shankar7055/Flare" },
+        { label: "View Source", url: "https://github.com/shankywho/Flare" },
       ],
     },
     {
@@ -55,7 +55,7 @@ export const siteConfig = {
       highlights: [],
       cta: [
         { label: "Visit Website", url: "https://retain-graph.vercel.app" },
-        { label: "View Source", url: "https://github.com/shankar7055/RetainGraph" },
+        { label: "View Source", url: "https://github.com/shankywho/RetainGraph" },
       ],
     },
     {
