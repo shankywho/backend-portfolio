@@ -71,15 +71,15 @@ export default function Home() {
 
   return (
     <main className="w-full h-full fixed select-none scrollbar-none">
-      <div ref={constraintsRef} className="absolute flex items-center justify-center w-[3200px] h-[2760px] left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%]">
+      <div ref={constraintsRef} className="absolute flex items-center justify-center w-[4800px] h-[2760px] left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%]">
         <DraggableWrapper
           ref={draggableRef}
           constraintsRef={constraintsRef as React.RefObject<HTMLElement>}
-          initialX={750}
-          initialY={540}
+          initialX={0}
+          initialY={0}
         >
 
-          <div id="mat-texture" className="absolute overflow-hidden rounded-lg border-[4px] border-[#47bfa0] bg-[#0a966e] w-[3200px] h-[2760px] left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%] shadow-lg bg-linear-grid bg-[size:16px_16px] bg-[position:12px_12px]">
+          <div id="mat-texture" className="absolute overflow-hidden rounded-lg border-[4px] border-[#47bfa0] bg-[#0a966e] w-[4800px] h-[2760px] left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%] shadow-lg bg-linear-grid bg-[size:16px_16px] bg-[position:12px_12px]">
             <div id="window" className=" z-10 opacity-[0.6] absolute w-full h-full left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%] bg-cover bg-[url(/about-me/Layer-window.png)] pointer-events-none"></div>
             <div id="lines" className="absolute w-full h-full left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%] bg-linear-big-grid bg-[size:80px_80px] bg-[position:-4px_-4px] pointer-events-none"></div>
             <div id="diagonal-lines" className="absolute w-full h-full left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%] bg-diagonal-grid bg-[size:80px_80px] bg-[position:-2.5px_-2.5px] pointer-events-none"></div>
