@@ -8,6 +8,7 @@ import { renderBold } from "@/lib/renderBold";
 
 const folderColors = [
   { bg: "#8EB4CE", tab: "#7EA4BE", label: "white" },
+  { bg: "#E59866", tab: "#D38755", label: "white" },
   { bg: "#64B5F6", tab: "#42A5F5", label: "white" },
   { bg: "#F2A65A", tab: "#E2964A", label: "white" },
   { bg: "#8DC4AB", tab: "#7DB49B", label: "white" },
@@ -16,6 +17,7 @@ const folderColors = [
 
 const folderImages = [
   "/cognify.png",
+  "/unfold.png",
   "/stronix.png",
   "/flare.png",
   "/retaingraph.png",
@@ -23,6 +25,7 @@ const folderImages = [
 ];
 
 const folderIcons = [
+  "/folder-icon-work.svg",
   "/folder-icon-work.svg",
   "/folder-icon-work.svg",
   "/folder-icon-lens.svg",
@@ -44,6 +47,14 @@ const folderContent: FolderContentItem[] = [
     cta: [
       { label: "Visit Website", url: "https://cognify-one-ivory.vercel.app/" },
       { label: "View Source", url: "https://github.com/shankywho/COGNIFY" },
+    ],
+  },
+  {
+    title: "Unfold",
+    description: "Unfold provides the SDK, CLI, API, and durable execution primitives for building document parsing pipelines across engines.\n\nSwitch providers, compare them on your own documents, and compose the routing or fallback logic your application needs. Unfold handles the uploads, asynchronous jobs, polling, retries, errors, and normalized results behind one interface.\n\nImprove output quality, cost, latency, and reliability without tying the rest of your application to one provider.",
+    cta: [
+      { label: "Visit Website", url: "https://unfold.unfold-app.workers.dev/" },
+      { label: "View Source", url: "https://github.com/shankywho/Unfold" },
     ],
   },
   {

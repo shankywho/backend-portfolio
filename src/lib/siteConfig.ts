@@ -26,6 +26,17 @@ export const siteConfig = {
       cta: { label: "Visit Website", url: "https://cognify-one-ivory.vercel.app/" },
     },
     {
+      id: "unfold",
+      title: "Unfold",
+      description:
+        "Provides the SDK, CLI, API, and durable execution primitives for building document parsing pipelines across engines.\n\nSwitch providers, compare them on your own documents, and compose the routing or fallback logic your application needs. Unfold handles the uploads, asynchronous jobs, polling, retries, errors, and normalized results behind one interface.\n\nImprove output quality, cost, latency, and reliability without tying the rest of your application to one provider.",
+      highlights: [],
+      cta: [
+        { label: "Visit Website", url: "https://unfold.unfold-app.workers.dev/" },
+        { label: "View Source", url: "https://github.com/shankywho/Unfold" },
+      ],
+    },
+    {
       id: "stronix",
       title: "Stronix",
       description:
